@@ -1,0 +1,8 @@
+name: Unused Projects
+description: Shows projects which are safe to delete (drush only)
+type: module
+
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Administration
+

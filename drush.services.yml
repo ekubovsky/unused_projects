@@ -1,0 +1,6 @@
+services:
+  wf_drush.commands:
+    class: \Drupal\unused_projects\Commands\UnusedProjectsDrushCommands
+    tags:
+      - { name: drush.command }
+    arguments: [ '@extension.list.module']
